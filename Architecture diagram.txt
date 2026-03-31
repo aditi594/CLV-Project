@@ -1,0 +1,59 @@
+Create a professional system architecture diagram for a Customer Lifetime Value (CLV) Prediction and Explainability System.
+Diagram layout
+Horizontal layout
+Separate layers for Offline Processing, Online Application, and Outputs
+Clean, minimal, enterprise style
+Use labeled boxes and directional arrows
+Offline Layer
+Customer CSV Dataset (100K Records)↓
+Data Preprocessing
+Duplicate handling
+Missing value handling
+Feature Engineering
+RFM features
+Behavioral metrics
+Model Training
+CLV Regression Model
+Behavioral Clustering
+K‑Means (behavior‑based)
+Knowledge Chunking
+Business logic chunks
+Dataset insight chunks
+Text Embedding
+Phi‑2 embeddings
+FAISS Vector Index
+Online Application Layer (Streamlit)
+User Interface
+Slider‑based single customer input
+CSV upload for batch prediction
+Data Validation
+File size check (≤ 500 MB)
+Schema validation
+Duplicate detection
+Missing value detection
+Optional Data Cleaning
+User‑controlled preprocessing
+Inference & Explainability Layer
+CLV Prediction Service
+Single customer prediction
+Batch prediction
+Customer Segmentation
+Low / Medium / High value
+Behavioral Cluster Visualization
+RAG Chatbot
+Query embedding
+Context retrieval from FAISS
+Phi‑2 answer generation
+Outputs
+Predicted CLV values
+Customer segments
+Cluster insights
+Explainable textual responses
+Downloadable prediction results
+Styling Requirements
+Use consistent color coding for layers
+Offline components grouped together
+Online components grouped together
+Clear arrow flow from data → processing → inference → output
+No evaluation metrics
+No PDF or external documents
